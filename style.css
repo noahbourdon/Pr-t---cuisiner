@@ -1,0 +1,60 @@
+/*
+ Theme Name:   anak theme
+ Theme URI:    http://valerypetroff.fr/anak_theme/
+ Description:  thème enfant de Twenty Twenty
+ Author:       Anti Anti
+ Author URI:   https://valerypetroff.fr
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentychild
+*/
+
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Staatliches',cursive; letter-spacing: normal; text-align: center; margin-top: 15px;}
+p{ font-family: 'Open Sans', sans-serif;}
+
+
+
+div#conteneur_principal {
+  position: relative;
+  background-color: rgb(234, 234, 220);
+  width: 90%;
+  margin: auto;
+}
+
+div.bandeau_bienvenue {
+  z-index: 2;
+  display: none;
+  position: fixed;
+  width: 90%;
+  padding-top: 30px;
+  margin-top: -40px;
+  font-family: 'Open Sans', cursive;
+  font-size: 2em;
+}
+
+div.informations{
+border-right: solid;
+border-color: red;
+position: relative;
+text-align: center;
+font-weight: bold;
+}
+
+div.ingrédients{
+position: relative;
+text-align: center;
+}
+
+div.etapes{
+border-top: solid;
+border-color: red;
+}
+
+div.plat{
+border-bottom: solid;
+border-color: red;
+}
